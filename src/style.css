@@ -1,0 +1,40 @@
+/* Custom Theme Styles */
+.custom-theme-input {
+  margin-top: 20px;
+}
+
+.custom-theme-input input,
+.custom-theme-input select {
+  margin: 5px 0;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.custom-theme-input button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-theme-input button:hover {
+  background-color: #f57c00;
+}
+
+/* Theme Preview Box */
+.theme-preview-box {
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.theme-preview-box .theme-content h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}

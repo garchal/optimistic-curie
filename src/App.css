@@ -1,0 +1,43 @@
+/* Hover expansion for poem cards */
+.poem-card {
+  transition: all 0.3s ease;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.poem-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Slight background change on hover */
+}
+
+/* Live theme preview box */
+.theme-preview-box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.theme-preview-box .theme-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.theme-preview-box .theme-content h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #444;
+}
